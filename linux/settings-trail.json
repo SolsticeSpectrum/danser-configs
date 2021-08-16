@@ -1,0 +1,335 @@
+{
+	"General": {
+		"OsuSongsDir": "Songs",
+		"OsuSkinsDir": "Skins",
+		"DiscordPresenceOn": true
+	},
+	"Graphics": {
+		"Width": 1920,
+		"Height": 1080,
+		"WindowWidth": 1600,
+		"WindowHeight": 900,
+		"Fullscreen": false,
+		"VSync": false,
+		"FPSCap": 0,
+		"MSAA": 0,
+		"ShowFPS": false
+	},
+	"Audio": {
+		"GeneralVolume": 0.5,
+		"MusicVolume": 0.5,
+		"SampleVolume": 0.5,
+		"Offset": 0,
+		"HitsoundPositionMultiplier": 1,
+		"IgnoreBeatmapSamples": true,
+		"IgnoreBeatmapSampleVolume": true,
+		"BeatScale": 1.2,
+		"BeatUseTimingPoints": false,
+		"Linux/Unix": {
+			"BassPlaybackBufferLength": 200,
+			"BassDeviceBufferLength": 10,
+			"BassUpdatePeriod": 5
+		}
+	},
+	"Input": {
+		"LeftKey": "Z",
+		"RightKey": "X",
+		"MouseButtonsDisabled": true
+	},
+	"Gameplay": {
+		"ShowHitErrorMeter": true,
+		"HitErrorMeterOpacity": 1,
+		"HitErrorMeterScale": 1,
+		"ShowScore": true,
+		"ScoreScale": 1,
+		"ScoreOpacity": 1,
+		"ShowCombo": true,
+		"ComboScale": 1,
+		"ComboOpacity": 1,
+		"ShowKeyOverlay": true,
+		"KeyOverlayScale": 1,
+		"KeyOverlayOpacity": 1,
+		"ProgressBar": "Pie",
+		"Boundaries": {
+			"Enabled": true,
+			"BorderThickness": 1,
+			"BorderFill": 1,
+			"BorderColor": {
+				"Hue": 0,
+				"Saturation": 0,
+				"Value": 1
+			},
+			"BorderOpacity": 1,
+			"BackgroundColor": {
+				"Hue": 0,
+				"Saturation": 1,
+				"Value": 0
+			},
+			"BackgroundOpacity": 0
+		}
+	},
+	"Skin": {
+		"CurrentSkin": "- avenir 1.1 -",
+		"UseColorsFromSkin": true
+	},
+	"Cursor": {
+		"TrailStyle": 1,
+		"Style23Speed": 0.18,
+		"Style4Shift": 0.5,
+		"Colors": {
+			"EnableRainbow": false,
+			"RainbowSpeed": 0,
+			"BaseColor": {
+				"Hue": 59,
+				"Saturation": 1,
+				"Value": 1
+			},
+			"EnableCustomHueOffset": false,
+			"HueOffset": 0,
+			"FlashToTheBeat": false,
+			"FlashAmplitude": 0
+		},
+		"EnableCustomTagColorOffset": true,
+		"TagColorOffset": 206,
+		"EnableTrailGlow": false,
+		"EnableCustomTrailGlowOffset": false,
+		"TrailGlowOffset": 0,
+		"ScaleToCS": false,
+		"CursorSize": 18,
+		"CursorExpand": false,
+		"ScaleToTheBeat": false,
+		"ShowCursorsOnBreaks": true,
+		"BounceOnEdges": false,
+		"TrailScale": 0.3,
+		"TrailEndScale": 0.5,
+		"TrailDensity": 2,
+		"TrailMaxLength": 2000,
+		"TrailRemoveSpeed": 0.7,
+		"GlowEndScale": 0,
+		"InnerLengthMult": 0,
+		"AdditiveBlending": true
+	},
+	"Objects": {
+		"DrawApproachCircles": true,
+		"DrawComboNumbers": true,
+		"DrawFollowPoints": true,
+		"LoadSpinners": true,
+		"ScaleToTheBeat": false,
+		"StackEnabled": true,
+		"Sliders": {
+			"ForceSliderBallTexture": true,
+			"DrawEndCircles": true,
+			"DrawSliderFollowCircle": true,
+			"DrawScorePoints": true,
+			"SliderMerge": false,
+			"SliderDistortions": false,
+			"BorderWidth": 1,
+			"Quality": {
+				"CircleLevelOfDetail": 50,
+				"PathLevelOfDetail": 50
+			},
+			"Snaking": {
+				"In": false,
+				"Out": false,
+				"DurationMultiplier": 0,
+				"FadeMultiplier": 0
+			}
+		},
+		"Colors": {
+			"MandalaTexturesTrigger": 5,
+			"MandalaTexturesAlpha": 0.3,
+			"Color": {
+				"EnableRainbow": true,
+				"RainbowSpeed": 8,
+				"BaseColor": {
+					"Hue": 0,
+					"Saturation": 1,
+					"Value": 1
+				},
+				"EnableCustomHueOffset": false,
+				"HueOffset": 0,
+				"FlashToTheBeat": false,
+				"FlashAmplitude": 100
+			},
+			"UseComboColors": false,
+			"ComboColors": [
+				{
+					"Hue": 0,
+					"Saturation": 1,
+					"Value": 1
+				}
+			],
+			"Sliders": {
+				"WhiteScorePoints": true,
+				"ScorePointColorOffset": 0,
+				"SliderBallTint": false,
+				"Border": {
+					"UseHitCircleColor": false,
+					"Color": {
+						"EnableRainbow": false,
+						"RainbowSpeed": 8,
+						"BaseColor": {
+							"Hue": 0,
+							"Saturation": 0,
+							"Value": 1
+						},
+						"EnableCustomHueOffset": false,
+						"HueOffset": 0,
+						"FlashToTheBeat": false,
+						"FlashAmplitude": 100
+					},
+					"EnableCustomGradientOffset": true,
+					"CustomGradientOffset": 0
+				},
+				"Body": {
+					"UseHitCircleColor": true,
+					"Color": {
+						"EnableRainbow": false,
+						"RainbowSpeed": 8,
+						"BaseColor": {
+							"Hue": 0,
+							"Saturation": 1,
+							"Value": 0
+						},
+						"EnableCustomHueOffset": false,
+						"HueOffset": 0,
+						"FlashToTheBeat": true,
+						"FlashAmplitude": 100
+					},
+					"InnerOffset": -0.5,
+					"OuterOffset": -0.05,
+					"InnerAlpha": 0.8,
+					"OuterAlpha": 0.8
+				}
+			}
+		}
+	},
+	"Playfield": {
+		"DrawObjects": true,
+		"DrawCursors": true,
+		"Scale": 0.8,
+		"OsuShift": false,
+		"ShiftY": 0,
+		"ShiftX": 0,
+		"ScaleStoryboardWithPlayfield": false,
+		"LeadInTime": 5,
+		"LeadInHold": 2,
+		"FadeOutTime": 5,
+		"SeizureWarning": {
+			"Enabled": false,
+			"Duration": 0
+		},
+		"Background": {
+			"LoadStoryboards": false,
+			"FlashToTheBeat": false,
+			"Dim": {
+				"Intro": 1,
+				"Normal": 1,
+				"Breaks": 1
+			},
+			"Parallax": {
+				"Amount": 0,
+				"Speed": 0
+			},
+			"Blur": {
+				"Enabled": false,
+				"Values": {
+					"Intro": 0,
+					"Normal": 0.6,
+					"Breaks": 0.3
+				}
+			},
+			"Triangles": {
+				"Enabled": false,
+				"Shadowed": false,
+				"DrawOverBlur": false,
+				"ParallaxMultiplier": 0
+			}
+		},
+		"Logo": {
+			"DrawSpectrum": false,
+			"Dim": {
+				"Intro": 1,
+				"Normal": 1,
+				"Breaks": 1
+			}
+		},
+		"Bloom": {
+			"Enabled": false,
+			"BloomToTheBeat": true,
+			"BloomBeatAddition": 0.3,
+			"Threshold": 0,
+			"Blur": 0.6,
+			"Power": 0.7
+		}
+	},
+	"Dance": {
+		"Movers": [
+			"linear",
+			"flower",
+			"bezier",
+			"momentum",
+			"spline",
+			"circular",
+			"axis",
+			"aggressive"
+		],
+		"Spinners": [
+			"circle",
+			"square",
+			"triangle",
+			"heart",
+			"cube",
+			"circle",
+			"triangle",
+			"square"
+		],
+		"DoSpinnersTogether": false,
+		"SpinnerRadius": 60,
+		"Battle": false,
+		"SliderDance": false,
+		"RandomSliderDance": false,
+		"TAGSliderDance": false,
+		"SliderDance2B": false,
+		"Bezier": {
+			"Aggressiveness": 60,
+			"SliderAggressiveness": 3
+		},
+		"Flower": {
+			"AngleOffset": 90,
+			"DistanceMult": 0.666,
+			"StreamAngleOffset": 90,
+			"LongJump": -1,
+			"LongJumpMult": 0.7,
+			"LongJumpOnEqualPos": false
+		},
+		"HalfCircle": {
+			"RadiusMultiplier": 1,
+			"StreamTrigger": 130
+		},
+		"Spline": {
+			"RotationalForce": false,
+			"StreamHalfCircle": true,
+			"StreamWobble": true,
+			"WobbleScale": 0.67
+		},
+		"Momentum": {
+			"SkipStackAngles": false,
+			"RestrictAngle": 80,
+			"DistanceMult": 0.666,
+			"DistanceMultEnd": 0.666
+		}
+	},
+	"Knockout": {
+		"Mode": 0,
+		"ExcludeMods": "EZHT",
+		"HideMods": "",
+		"MaxPlayers": 50,
+		"BubbleMinimumCombo": 200,
+		"RevivePlayersAtEnd": false,
+		"MinCursorSize": 3,
+		"MaxCursorSize": 7,
+		"AddDanser": false,
+		"DanserName": "danser"
+	}
+}
